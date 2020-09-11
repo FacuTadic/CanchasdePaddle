@@ -1,7 +1,7 @@
 import javax.persistence.*;
 
 @Entity
-@Table(name = "PALETAS")
+@Table(name = "CONSTRUCTORES")
 public class Constructor {
     @Id
     private Long codigoConstructor;

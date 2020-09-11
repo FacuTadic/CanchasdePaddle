@@ -1,14 +1,12 @@
 import javax.persistence.*;
 
 @Entity
-@Table(name = "JUGADORES")
+@Table(name = "PARTICIPACIONES")
 public class Participacion {
-    @Id
-    @ManyToOne
+    @Id @ManyToOne
     private Jugador idJugador;
 
-    @Id
-    @ManyToOne
+    @Id @ManyToOne
     private Partido idPartido;
 
     @ManyToOne
